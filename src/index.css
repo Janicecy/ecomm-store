@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+button {
+  color: black;
+}
+
 /* global css variables  */
 :root {
   --border-color: #e8e8e8;

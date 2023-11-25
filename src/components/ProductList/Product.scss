@@ -16,11 +16,24 @@
     display: flex;
     justify-content: space-between;
     font-size: 1.1em;
+    flex-direction: column;
 
     .product__title {
       font-weight: bold;
       line-height: 20px;
-      margin-right: 20px;
+      margin: 0 0 5px 0;
+      word-break: break-word;
+    }
+  }
+
+  // Display product title and price on same line when on desktop  
+  @media only screen and (min-width: 768px) {
+    .product__info {
+      flex-direction: row;
+
+      .product__title {
+        margin: 0 20px 0 0;
+      }
     }
   }
 
@@ -28,6 +41,7 @@
     font-size: 0.9em;
     color: #525860;
     line-height: 14px;
+    word-break: break-word;
 
     .read-more-btn {
       font-weight: bold;

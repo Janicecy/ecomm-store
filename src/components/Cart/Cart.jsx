@@ -29,7 +29,7 @@ export default function Cart() {
     <div className="cart-wrapper">
       <h1 className="cart__header">My Cart</h1>
       <table className="cart-items-table">
-        <thead>
+        <thead className="cart-items-table__header">
           <tr style={{ fontSize: '1.2em' }}>
             <th className="table__cell--left">Product</th>
             <th>Quantity</th>
