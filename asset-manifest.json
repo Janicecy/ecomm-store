@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Janicecy/ecomm-store/static/css/main.ee184a9a.css",
+    "main.js": "/Janicecy/ecomm-store/static/js/main.1c10a54e.js",
+    "static/media/github.svg": "/Janicecy/ecomm-store/static/media/github.d5015bb553d6d66b6ede2e2532ea9df4.svg",
+    "static/media/cart.svg": "/Janicecy/ecomm-store/static/media/cart.94e2840606b174cefde6108b7ac0a4cb.svg",
+    "index.html": "/Janicecy/ecomm-store/index.html",
+    "main.ee184a9a.css.map": "/Janicecy/ecomm-store/static/css/main.ee184a9a.css.map",
+    "main.1c10a54e.js.map": "/Janicecy/ecomm-store/static/js/main.1c10a54e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee184a9a.css",
+    "static/js/main.1c10a54e.js"
+  ]
+}
