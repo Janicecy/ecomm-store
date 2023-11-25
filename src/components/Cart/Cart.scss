@@ -1,0 +1,31 @@
+.cart-wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+
+  .cart__header {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .cart__subtotal {
+    text-align: right;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+}
+
+.cart-items-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+
+  th,
+  td {
+    padding: 15px 30px;
+  }
+}
+
+

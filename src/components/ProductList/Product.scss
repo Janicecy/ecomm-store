@@ -1,0 +1,42 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .product__img-wrapper {
+    height: 250px;
+    overflow: hidden;
+
+    .product__img {
+      width: 100%;
+    }
+  }
+
+  .product__info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+
+    .product__title {
+      font-weight: bold;
+      line-height: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  .product__description-wrapper {
+    font-size: 0.9em;
+    color: #525860;
+    line-height: 14px;
+
+    .read-more-btn {
+      font-weight: bold;
+    }
+  }
+
+  .product__add-to-cart-btn {
+    border: 2px solid black;
+    font-weight: bold;
+    height: 30px;
+  }
+}
